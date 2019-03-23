@@ -1,13 +1,13 @@
 $(function () {
 
-    $(".create-form").on("submit", function (event) {
+    $(".addBurger").on("submit", function (event) {
         event.preventDefault();
 
         var newBurger = {
             burger_name: $("newburger")
                 .val()
                 .trim(),
-            devoured: 0
+            devoured:0
         };
 
         $.ajax("/burgers", {
@@ -19,9 +19,10 @@ $(function () {
         });
     });
 
-    $(".eatburger").on("click", function (event) {
+    $(document).on("click", '.eatburger', function (event) { 
+        alert("eaten");
         event.preventDefault();
-
+        
         var id = $(this).data("id");
         var devouredState = {
             devoured: 1
