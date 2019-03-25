@@ -1,0 +1,24 @@
+div.container {
+    position: relative;
+    left: 30%;
+};
+
+.title{
+    position: relative;
+    left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+};
+
+div.row{
+    position: relative;
+    left: 50%;
+};
+
+img#burgerPic.rounded {
+   height: 250px;
+};
+
+.text-center {
+    height:250px;
+}
