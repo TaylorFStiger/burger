@@ -1,24 +1,27 @@
-div.container {
-    position: relative;
-    left: 30%;
-};
+body {
+    background-image: Url("../img/50sStars.jpg");
+    background-size: cover;
+}
 
-.title{
-    position: relative;
-    left: 50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-};
+u {
+    font-family: 'Fontdiner Swanky', cursive;
+}
 
-div.row{
-    position: relative;
-    left: 50%;
-};
+;
+h1#title {
+    font-family: 'Fontdiner Swanky', cursive;
+}
 
+;
+;
 img#burgerPic.rounded {
-   height: 250px;
-};
+    height: 250px;
+}
 
-.text-center {
-    height:250px;
+;
+
+
+button.addBurger{
+    position: relative;
+    left: 50%;
 }
